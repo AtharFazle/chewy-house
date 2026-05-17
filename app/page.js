@@ -1,34 +1,39 @@
-import styles from './page.module.css';
-import Background from '@/components/Background';
-import Emblem from '@/components/Emblem';
-import LinkCard from '@/components/LinkCard';
-import Footer from '@/components/Footer';
-import { WhatsAppIcon, InstagramIcon, ShopeeIcon, GrabIcon } from '@/components/Icons';
+import styles from "./page.module.css";
+import Background from "@/components/Background";
+import Emblem from "@/components/Emblem";
+import LinkCard from "@/components/LinkCard";
+import Footer from "@/components/Footer";
+import {
+  WhatsAppIcon,
+  InstagramIcon,
+  ShopeeIcon,
+  GrabIcon,
+} from "@/components/Icons";
 
 const links = [
   {
-    href: 'https://wa.me/6281772389280?text=halo+admin+apakah+kuenya+ada%3F',
+    href: "https://wa.me/6281772389280?text=halo+admin+apakah+kuenya+ada%3F",
     icon: <WhatsAppIcon />,
-    label: 'Chat & Order',
-    title: 'WhatsApp',
+    label: "Chat & Order",
+    title: "WhatsApp",
   },
   {
-    href: 'https://www.instagram.com/thechewyhouse/',
+    href: "https://www.instagram.com/thechewyhouse/",
     icon: <InstagramIcon />,
-    label: 'Follow Us',
-    title: 'Instagram',
+    label: "Follow Us",
+    title: "Instagram",
   },
   {
-    href: 'https://spf.shopee.co.id/70GWJsQT28',
+    href: "https://spf.shopee.co.id/70GWJsQT28",
     icon: <ShopeeIcon />,
-    label: 'Shop Online',
-    title: 'Shopee',
+    label: "Shop Online",
+    title: "Shopee",
   },
   {
-    href: 'https://r.grab.com/g/6-20260514_141208_1b458fb529664a39973fad5a47644087_MEXMPS-6-C73ECKBKGYAAEA',
+    href: "https://r.grab.com/g/6-20260514_141208_1b458fb529664a39973fad5a47644087_MEXMPS-6-C73ECKBKGYAAEA",
     icon: <GrabIcon />,
-    label: 'Fast Delivery',
-    title: 'GrabFood',
+    label: "Fast Delivery",
+    title: "GrabFood",
   },
 ];
 

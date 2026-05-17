@@ -10,6 +10,9 @@ export const metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: '/logo-background.png',
+  },
   openGraph: {
     title: 'The Chewy House – Premium Chewy Cookies',
     description: 'Crafted with love, baked to perfection — every bite, a luxury. Order premium chewy cookies sekarang!',
