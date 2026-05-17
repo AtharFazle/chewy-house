@@ -90,21 +90,6 @@
   /* filter: drop-shadow(0 0 18px rgba(201,168,76,.45)); */
 }
 
-@media (max-width: 768px) {
-  .emblem img {
-    width: 90%;
-    height: 90%;
-  }
-}
-
-/* sm */
-@media (max-width: 480px) {
-  .emblem img {
-    width: 80%;
-    height: 80%;
-  }
-}
-
 
 .brandName {
   font-family: 'Cormorant Garamond', serif;
