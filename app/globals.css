@@ -1,0 +1,25 @@
+:root {
+  --gold:        #C9A84C;
+  --gold-light:  #E8C97A;
+  --gold-dim:    #8A6B2A;
+  --brown-dark:  #1A0F05;
+  --brown-mid:   #2E1B0A;
+  --brown-rich:  #3D2410;
+  --cream:       #F5EDD8;
+  --cream-dim:   #C4AE88;
+  --black:       #0A0604;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  min-height: 100vh;
+  font-family: 'Jost', sans-serif;
+  background-color: var(--black);
+  color: var(--cream);
+  overflow-x: hidden;
+  position: relative;
+}
+
